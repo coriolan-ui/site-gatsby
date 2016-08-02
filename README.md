@@ -4,6 +4,8 @@ Web development of Coriolan UI site on [Gatsby](https://github.com/gatsbyjs/gats
 
 [Coriolan UI](http://coriolan-ui.github.io) - scss front-end framework ([source](https://github.com/coriolan-ui/coriolan-ui)).
 
+![](https://coriolan-ui.github.io/coriolan-ui-jekyll/assets/img/coriolan-ui-logo.svg)
+
 ### Run
 
 `npm i`
@@ -12,13 +14,4 @@ Web development of Coriolan UI site on [Gatsby](https://github.com/gatsbyjs/gats
 
 Proudly hosted by [GitHub Pages](https://pages.github.com)
 
-<img src="http://coriolan-ui.github.io/assets/img/coriolan-ui-logo.svg"
-style="
-    display: block;
-    width: 100%;
-    height: auto;
-    max-width: 240px;
-    padding: 0 20px;
-    margin: 0 auto 60px;
-    box-sizing: border-box;
-">
+[![npm](https://img.shields.io/npm/v/coriolan-ui.svg)](https://www.npmjs.com/package/coriolan-ui) [![npm](https://img.shields.io/npm/dt/coriolan-ui.svg)](https://www.npmjs.com/package/coriolan-ui)

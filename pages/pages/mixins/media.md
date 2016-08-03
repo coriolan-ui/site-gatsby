@@ -3,7 +3,7 @@ id: 03
 title: "Media"
 layout: post
 category: mixin
-path: "/mixins/media"
+path: "/mixins/media/"
 ---
 
 SCSS

@@ -25,17 +25,17 @@ class MainMenu extends React.Component {
                             <Ink />
                         </Link>
 
-                        <Link to={ prefixLink('/installation')} className={`mainmenu__link ${ location.pathname === prefixLink('/installation') ? 'is-selected' : '' }`}>
+                        <Link to={ prefixLink('/installation/')} className={`mainmenu__link ${ location.pathname === prefixLink('/installation/') ? 'is-selected' : '' }`}>
                             Installation
                             <Ink />
                         </Link> 
 
-                        <Link to={ prefixLink('/variables')} className={`mainmenu__link ${ location.pathname === prefixLink('/variables') ? 'is-selected' : '' }`}>
+                        <Link to={ prefixLink('/variables/')} className={`mainmenu__link ${ location.pathname === prefixLink('/variables/') ? 'is-selected' : '' }`}>
                             Variables
                             <Ink />
                         </Link> 
 
-                        <Link to={ prefixLink('/mixins')} className={`mainmenu__link ${ location.pathname.indexOf(prefixLink('/mixins')) == 0 ? 'is-selected' : '' }`}>
+                        <Link to={ prefixLink('/mixins/')} className={`mainmenu__link ${ location.pathname.indexOf(prefixLink('/mixins/')) == 0 ? 'is-selected' : '' }`}>
                             Mixins
                             <Ink />
                         </Link> 
@@ -49,11 +49,12 @@ class MainMenu extends React.Component {
                 </div>
 
                 <div className='mainmenu__subnav'>
+                    <div className='mainmenu__wrapper'>
 
-                    <img className='mainmenu__shield' src='https://img.shields.io/npm/dt/coriolan-ui.svg' target='_blank' />
+                        <img className='mainmenu__shield' src='https://img.shields.io/npm/dt/coriolan-ui.svg' target='_blank' />
 
-                    <img className='mainmenu__shield' src='https://img.shields.io/npm/v/coriolan-ui.svg' target='_blank' />
-
+                        <img className='mainmenu__shield' src='https://img.shields.io/npm/v/coriolan-ui.svg' target='_blank' />
+                    </div>
                 </div>
             </div>
         );

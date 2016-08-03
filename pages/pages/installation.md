@@ -1,7 +1,7 @@
 ---
 title: 'Installation'
 layout: page
-path: '/installation'
+path: '/installation/'
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: 'Variables'
 layout: page
-path: '/variables'
+path: '/variables/'
 
 ---
 

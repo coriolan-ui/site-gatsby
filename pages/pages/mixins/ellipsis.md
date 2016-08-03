@@ -3,7 +3,7 @@ id: 02
 title: "Ellipsis"
 layout: post
 category: mixin
-path: "/mixins/ellipsis"
+path: "/mixins/ellipsis/"
 ---
 
 SCSS

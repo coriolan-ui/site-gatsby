@@ -3,7 +3,7 @@ id: 01
 title: "Clearfix"
 layout: post
 category: mixin
-path: "/mixins/clearfix"
+path: "/mixins/clearfix/"
 ---
 
 SCSS

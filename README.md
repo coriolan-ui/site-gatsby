@@ -1,10 +1,8 @@
 # Site of Coriolan UI on Gatsby
 
-Web development of Coriolan UI site on [Gatsby](https://github.com/gatsbyjs/gatsby) - a [ReactJS](https://facebook.github.io/react/) static site generator.
+### front-end concept
 
-[Coriolan UI](http://coriolan-ui.github.io) - scss front-end framework ([source](https://github.com/coriolan-ui/coriolan-ui)).
-
-![](https://coriolan-ui.github.io/coriolan-ui-jekyll/assets/img/coriolan-ui-logo.svg)
+Web development of Coriolan UI site
 
 ### Run
 
@@ -12,6 +10,16 @@ Web development of Coriolan UI site on [Gatsby](https://github.com/gatsbyjs/gats
 
 `gatsby develop`
 
-Proudly hosted by [GitHub Pages](https://pages.github.com)
+### Build
 
-[![npm](https://img.shields.io/npm/v/coriolan-ui.svg)](https://www.npmjs.com/package/coriolan-ui) [![npm](https://img.shields.io/npm/dt/coriolan-ui.svg)](https://www.npmjs.com/package/coriolan-ui)
+`gatsby build` (or `gatsby build --prefix-links`)
+
+After that just copy all from 'build' folder into root of `master` (or `gh-pages`) branch and push.
+
+### Used
+
+JavaScript library - [ReactJS](https://facebook.github.io/react)
+
+Static site generator - [GatsbyJS](https://github.com/gatsbyjs/gatsby)
+
+Proudly hosted by [GitHub Pages](https://pages.github.com)

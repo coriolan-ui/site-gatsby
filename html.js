@@ -2,6 +2,11 @@ import React from 'react'
 import DocumentTitle from 'react-document-title'
 import { prefixLink } from 'gatsby-helpers'
 
+import favicon32 from './static/img/favicons/favicon-32.png'
+import favicon144 from './static/img/favicons/favicon-144.png'
+import ogImage from './static/img/og-images/coriolan-ui.png'
+
+
 const BUILD_TIME = new Date().getTime()
 
 module.exports = React.createClass({
@@ -30,8 +35,9 @@ module.exports = React.createClass({
                     </title>
                     { font }
                     { css }
-                    <link rel="shortcut icon" href={ prefixLink('/favicon-32.png') } />
-                    <link rel="apple-touch-icon" href={ prefixLink('/favicon-144.png') } />
+                    <link rel="shortcut icon" href={ prefixLink(favicon32) } />
+                    <link rel="apple-touch-icon" href={ prefixLink(favicon144) } />
+                    <meta property="og:image" content={ prefixLink(ogImage) } />
                 </head>
                 <body>
                     <span id="react-mount" dangerouslySetInnerHTML={ {    __html: this.props.body} } />

@@ -1,7 +1,7 @@
 ---
 title: 'Mixins'
 layout: post
-path: '/mixins'
+path: '/mixins/'
 
 ---
 

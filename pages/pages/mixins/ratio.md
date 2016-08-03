@@ -3,7 +3,7 @@ id: 05
 title: "Ratio"
 layout: post
 category: mixin
-path: "/mixins/ratio"
+path: "/mixins/ratio/"
 ---
 
 SCSS

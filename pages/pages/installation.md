@@ -9,17 +9,17 @@ To install Coriolan UI use this command in your terminal:
 
     npm install coriolan-ui --save
 
-Then just import Coriolan UI in your sass/scss stylesheet:
+After `mpm i` just import Coriolan UI in your sass/scss stylesheet from `node_modules` folder:
 
     @import '../node_modules/coriolan-ui/coriolan-ui';
 
-Now you can add any available mixin:
+Now you can add any available mixin in your sass/scss stylesheet:
 
     .container {
         @include clearfix;
     }
 
-Ore even use any supported variable:
+Or even use any supported variable in your fucking sass/scss stylesheet:
 
     .container {
         max-width: $XL;

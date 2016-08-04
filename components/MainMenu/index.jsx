@@ -19,18 +19,18 @@ class MainMenu extends React.Component {
                 <div className='mainmenu__nav'>
                     <div className='mainmenu__wrapper'>
 
-                        <Link to={ prefixLink('/')} className={`mainmenu__link mainmenu__link--coriolan ${ location.pathname === prefixLink('/') ? 'is-selected' : '' }`}>
+                        <Link to={ prefixLink('/')} className='mainmenu__link' activeClassName='is-selected' onlyActiveOnIndex>
                             <img className='mainmenu__coriolan-lion' src={ prefixLink(coriolanLion) }/>
                             Coriolan UI
                             <Ink />
                         </Link>
 
-                        <Link to={ prefixLink('/installation/')} className={`mainmenu__link ${ location.pathname === prefixLink('/installation/') ? 'is-selected' : '' }`}>
+                        <Link to={ prefixLink('/installation/')} className='mainmenu__link' activeClassName='is-selected'>
                             Installation
                             <Ink />
                         </Link> 
 
-                        <Link to={ prefixLink('/variables/')} className={`mainmenu__link ${ location.pathname === prefixLink('/variables/') ? 'is-selected' : '' }`}>
+                        <Link to={ prefixLink('/variables/')} className='mainmenu__link' activeClassName='is-selected'>
                             Variables
                             <Ink />
                         </Link> 

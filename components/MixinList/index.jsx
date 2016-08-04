@@ -19,7 +19,7 @@ class MixinList extends React.Component {
 
                 pageLinks.push(
                     <li key={ id }>
-                        <Link to={ prefixLink(page.path) } className='mixin-list__link' >
+                        <Link to={ prefixLink(page.path) } className='mixin-list__link' activeClassName='is-selected' >
                             { title }
                             <Ink />
                         </Link>

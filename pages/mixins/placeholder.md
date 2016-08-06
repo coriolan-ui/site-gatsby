@@ -1,9 +1,8 @@
 ---
 id: 04
-title: "Placeholder"
+title: 'Placeholder'
 layout: post
 category: mixin
-path: "/mixins/placeholder/"
 ---
 
 SCSS

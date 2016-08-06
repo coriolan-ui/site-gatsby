@@ -54,16 +54,7 @@
         //     width: 100%;
         // }
 
-        &:hover {
-            // color: #fff;
-            background: rgba(#d43324,.05);
-
-            &:after,
-            &:before {
-                width: 100%;
-            }
-        }
-
+        &:hover,
         &.is-selected {
             // color: #fff;
             background: rgba(#d43324,.1);

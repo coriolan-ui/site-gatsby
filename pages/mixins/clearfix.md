@@ -1,9 +1,8 @@
 ---
 id: 01
-title: "Clearfix"
+title: 'Clearfix'
 layout: post
 category: mixin
-path: "/mixins/clearfix/"
 ---
 
 SCSS
@@ -16,6 +15,6 @@ CSS Output
 
     .container::after {
         clear: both;
-        content: "";
+        content: '';
         display: table;
     }

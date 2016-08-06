@@ -1,9 +1,8 @@
 ---
 id: 03
-title: "Media"
+title: 'Media'
 layout: post
 category: mixin
-path: "/mixins/media/"
 ---
 
 SCSS

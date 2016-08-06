@@ -5,8 +5,9 @@ import { config } from 'config'
 import Ink from 'react-ink'
 
 import './style.scss'
-import iconGithub from './iconGithub.svg'
-import coriolanLion from './coriolanLion.svg'
+import iconCoriolanLion from '../../static/img/svg-icons/coriolan-lion.svg'
+import iconGithub from '../../static/img/svg-icons/github.svg'
+import iconNpm from '../../static/img/svg-icons/npm.svg'
 
 class MainMenu extends React.Component {
     render() {
@@ -20,8 +21,8 @@ class MainMenu extends React.Component {
                     <div className='mainmenu__wrapper'>
 
                         <Link to={ prefixLink('/')} className='mainmenu__link' activeClassName='is-selected' onlyActiveOnIndex>
-                            <img className='mainmenu__coriolan-lion' src={ prefixLink(coriolanLion) }/>
-                            Coriolan UI
+                            <img className='mainmenu__coriolan-lion' src={ prefixLink(iconCoriolanLion) }/>
+                            { config.siteTitle }
                             <Ink />
                         </Link>
 
@@ -40,11 +41,17 @@ class MainMenu extends React.Component {
                             <Ink />
                         </Link> 
 
-                        <a className='mainmenu__link mainmenu__link--social' href={ config.siteGithubUrl } target='_blank'>
-                            <img className='mainmenu__svgicon' src={ prefixLink(iconGithub) }/>
-                            <Ink />
-                        </a>
+                        <div style={{float:'right'}}>
+                            <a className='mainmenu__link' href={ config.siteNpmUrl } target='_blank'>
+                                <img className='mainmenu__svgicon' src={ prefixLink(iconNpm) }/>
+                                <Ink />
+                            </a>
 
+                            <a className='mainmenu__link' href={ config.siteGithubUrl } target='_blank'>
+                                <img className='mainmenu__svgicon' src={ prefixLink(iconGithub) }/>
+                                <Ink />
+                            </a>
+                        </div>
                     </div>
                 </div>
 

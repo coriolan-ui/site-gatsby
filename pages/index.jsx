@@ -9,9 +9,9 @@ class SiteIndex extends React.Component {
     render() {
         return (
             <DocumentTitle title={ config.siteTitle }>
-                <span>
+                <div className='index'>
 
-                </span>
+                </div>
             </DocumentTitle>
         )
     }

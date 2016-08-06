@@ -9,4 +9,4 @@ Front-end developers are animals. But with this list of mixins they can evolve i
 
 Coriolan UI are supports some everyday needed mixins. Here the list. 
 
-Just `@include` what you need.
+Just `@include` what you need 1x.

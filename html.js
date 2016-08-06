@@ -6,7 +6,6 @@ import favicon32 from './static/img/favicons/favicon-32.png'
 import favicon144 from './static/img/favicons/favicon-144.png'
 import ogImage from './static/img/og-images/coriolan-ui.png'
 
-
 const BUILD_TIME = new Date().getTime()
 
 module.exports = React.createClass({
@@ -40,7 +39,7 @@ module.exports = React.createClass({
                     <meta property="og:image" content={ prefixLink(ogImage) } />
                 </head>
                 <body>
-                    <span id="react-mount" dangerouslySetInnerHTML={ {    __html: this.props.body} } />
+                    <div style={{ width: '100%'}} id="react-mount" dangerouslySetInnerHTML={ {    __html: this.props.body} } />
                     <script src={ prefixLink(`/bundle.js?t=${BUILD_TIME}`) } />
                 </body>
             </html>

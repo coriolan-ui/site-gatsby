@@ -8,6 +8,8 @@ import MainMenu from '../components/MainMenu'
 import Footer from '../components/Footer'
 import { config } from 'config'
 
+import './style.scss'
+
 class MarkdownWrapper extends React.Component {
     render() {
         const {route} = this.props

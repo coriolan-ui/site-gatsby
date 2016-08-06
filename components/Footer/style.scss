@@ -36,29 +36,27 @@ $XL: 1300px;
         padding: 1px 0 2px;
         cursor: pointer;
 
-        &:before {
+        &:before,
+        &:after {
             content: '';
             position: absolute;
-            right: 0;
-            top: 0;
-            height: 1px;
-            left: 100%;
             background: #ef4030;
             transition: left .25s ease;
+            right: 0;
+            height: 1px;
+        }
+
+        &:before {
+            top: 0;
+            left: 100%;
         }
         &:hover:before {
             left: 0;
         }
 
         &:after {
-            content: '';
-            position: absolute;
-            right: 0;
             bottom: 0;
-            height: 1px;
             left: 0;
-            background: #ef4030;
-            transition: left .25s ease;
         }
         &:hover:after {
             left: 100%;

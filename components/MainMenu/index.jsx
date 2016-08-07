@@ -20,7 +20,7 @@ class MainMenu extends React.Component {
                 <div className='mainmenu__nav'>
                     <div className='mainmenu__wrapper'>
 
-                        <Link to={ prefixLink('/')} className='mainmenu__link' activeClassName='is-selected' onlyActiveOnIndex>
+                        <Link to={ prefixLink('/')} className='mainmenu__link mainmenu__link--coriolan' activeClassName='is-selected' onlyActiveOnIndex>
                             <img className='mainmenu__coriolan-lion' src={ prefixLink(iconCoriolanLion) }/>
                             { config.siteTitle }
                             <Ink />

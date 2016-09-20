@@ -12,19 +12,19 @@ SCSS
 
         @include media(S) {
             background: yellow;
-        };
+        }
 
         @include media(M) {
             background: red;
-        };
+        }
 
         @include media(L) {
             background: green;
-        };
+        }
 
         @include media(XL) {
             background: blue;
-        };
+        }
     }
 
 CSS Output

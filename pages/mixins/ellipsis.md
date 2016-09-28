@@ -1,5 +1,5 @@
 ---
-id: 02
+id: 03
 title: 'Ellipsis'
 layout: post
 category: mixin
@@ -10,7 +10,7 @@ SCSS
     .title {
         @include ellipsis;
     }
-    
+
 CSS Output
 
     .title {

@@ -2,7 +2,6 @@
 title: 'Projects'
 layout: page
 path: '/projects/'
-
 ---
 
 ---

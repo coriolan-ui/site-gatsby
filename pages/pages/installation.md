@@ -2,7 +2,6 @@
 title: 'Installation'
 layout: page
 path: '/installation/'
-
 ---
 
 To install Coriolan UI use this command in your terminal:

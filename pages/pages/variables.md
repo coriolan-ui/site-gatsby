@@ -2,7 +2,6 @@
 title: 'Variables'
 layout: page
 path: '/variables/'
-
 ---
 
 Body
@@ -13,7 +12,7 @@ Body
 
 Grid
 
-    $gridIndent: 8px !default;
+    $gridIndent: 8px !default; (Deprecated Soon)
 
 Breakpoints
 

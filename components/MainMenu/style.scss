@@ -1,20 +1,14 @@
-$S: 508px;
-$M: 754px;
-$L: 1054px;
-$XL: 1300px;
+@import '../../node_modules/coriolan-ui/tools/vars.scss';
 @import '../../node_modules/coriolan-ui/mixins/media';
 @import '../../node_modules/coriolan-ui/mixins/clearfix';
 
 $mainmenu__link-selected--height: 4px;
 
 .mainmenu {
-    // font-family: 'PT Sans', sans-serif;
-    // font-weight: 700px;
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    // height: 50px;
     z-index: 1000;
 
     &__wrapper {
@@ -26,21 +20,19 @@ $mainmenu__link-selected--height: 4px;
         @include clearfix;
         padding: 0 5%;
         background: #d43324;
-        // box-sizing: border-box;
     }
 
     &__subnav {
-        // background: #d43324;
-        // text-align: right;
         padding: 10px 5%;
-        // box-sizing: border-box;
         @include clearfix;
     }
 
-    &__shield {
-        // display: inline-block;
+    &__shield-link {
         float: right;
         margin-left: 4px;
+    }
+
+    &__shield-img {
     }
 
     &__coriolan-lion {
@@ -52,14 +44,10 @@ $mainmenu__link-selected--height: 4px;
 
     &__link {
         padding: 10px 14px;
-        // display: inline-block;
         line-height: 30px;
-        // font-size: 16px;
         text-decoration: none;
         color: #fff;
-        // text-transform: uppercase;
         transition: opacity .25s ease;
-        // font-weight: 700;
         position: relative;
         float: left;
         opacity: .5;
@@ -71,13 +59,8 @@ $mainmenu__link-selected--height: 4px;
             left: 50%;
             width: 0;
             height: 0;
-            // height: 4px;
             transition: width .25s ease .15s, left .25s ease .15s, height .25s ease;
-            // transition: width .25s ease .25s, left .25s ease .25s;
-            // background: rgba(#fff,.4);
             background: #fff;
-            // border-radius: 0 0 100% 100%;
-            // margin-top: -$mainmenu__link-selected--height/2;
         }
 
         // @include media(M) {
@@ -101,10 +84,6 @@ $mainmenu__link-selected--height: 4px;
         &--coriolan {
             font-family: 'Montserrat', sans-serif;
         }
-
-        // &--social {
-        //     float: right;
-        // }
     }
 
     &__svgicon {

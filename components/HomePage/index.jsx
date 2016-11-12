@@ -4,7 +4,8 @@ import { prefixLink } from 'gatsby-helpers'
 import { config } from 'config'
 
 import './style.scss'
-import coriolanLogo from './coriolanLogo.svg'
+import logoCoriolanUI from '../../static/img/svg-icons/coriolan-ui.svg'
+import iconCoriolanLion from '../../static/img/svg-icons/coriolan-lion.svg'
 
 class HomePage extends React.Component {
     render() {
@@ -13,7 +14,7 @@ class HomePage extends React.Component {
 
         return (
             <div className='homepage'>
-                <img className='homepage__logo' src={ prefixLink(coriolanLogo) } alt='Coriolan UI Logo' />
+                <img className='homepage__logo' src={ prefixLink(logoCoriolanUI) } alt='Coriolan UI Logo' />
                 <h1 className='homepage__title'>{ config.siteTitle }</h1>
                 <h2 className='homepage__description'>{ config.siteDescr }</h2>
                 <div dangerouslySetInnerHTML={{ __html: page.body}} />

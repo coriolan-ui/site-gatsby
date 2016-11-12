@@ -1,11 +1,15 @@
 ---
 id: 02
-title: 'Clearfix for IE'
+title: 'Clearfix IE8'
 layout: post
 category: mixin
 ---
 
-SCSS
+SCSS Source
+
+    Coming Soon
+
+SCSS Sintaxis
 
     .container {
         @include clearfix-ie8;

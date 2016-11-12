@@ -5,7 +5,11 @@ layout: post
 category: mixin
 ---
 
-SCSS
+SCSS Source
+
+    Coming Soon
+
+SCSS Sintaxis
 
     .item {
         @include ratio(60%,1560px,500px);

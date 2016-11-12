@@ -58,9 +58,13 @@ class MainMenu extends React.Component {
                 <div className='mainmenu__subnav'>
                     <div className='mainmenu__wrapper'>
 
-                        <img className='mainmenu__shield' src='https://img.shields.io/npm/dt/coriolan-ui.svg' target='_blank' />
+                        <a className='mainmenu__shield-link' href={ config.siteNpmUrl } target='_blank'>
+                            <img className='mainmenu__shield-img' src='https://img.shields.io/npm/dt/coriolan-ui.svg' />
+                        </a>
 
-                        <img className='mainmenu__shield' src='https://img.shields.io/npm/v/coriolan-ui.svg' target='_blank' />
+                        <a className='mainmenu__shield-link' href={ config.siteNpmUrl } target='_blank'>
+                            <img className='mainmenu__shield-img' src='https://img.shields.io/npm/v/coriolan-ui.svg' />
+                        </a>
                     </div>
                 </div>
             </div>

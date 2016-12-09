@@ -4,21 +4,25 @@ layout: page
 path: '/variables/'
 ---
 
-Body
+### Global
+
+    $em-base: 14;
+
+### Body
 
     $bodyBg: #ccc !default;
     $bodyFont: 400 14px/1.3 Helvetica, Arial, sans-serif !default;
     $bodyColor: #666 !default;
 
-Grid
+### Breakpoints
 
-    $gridIndent: 8px !default; (Deprecated Soon)
-
-Breakpoints
-
-    // $XS: 320px !default; (Coming Soon)
+    $XS: 320px !default;
     $S: 508px !default;
     $M: 754px !default;
     $L: 1054px !default;
     $XL: 1300px !default;
+
+### Grid
+
+    $gridIndent: 8px !default; (Deprecated Soon)
 

@@ -1,13 +1,20 @@
 ---
-id: 05
+id: 06
 title: 'Placeholder'
 layout: post
 category: mixin
 ---
 
-SCSS Source
+Source
 
-    Coming Soon
+    @mixin placeholder {
+        $prefixs: ":-webkit-input" ":-moz" "-moz" "-ms-input";
+        @each $placeholder in $prefixs {
+            &:#{$placeholder}-placeholder {
+                @content;
+            }
+        }
+    }
 
 SCSS Sintaxis
 

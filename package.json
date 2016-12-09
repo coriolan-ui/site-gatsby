@@ -1,11 +1,14 @@
 {
   "scripts": {
     "develop": "gatsby develop",
-    "build": "npm run clean & gatsby build",
+    "build": "npm run clean & gatsby build & copy",
     "clean:public": "rm -rf public",
     "clean": "npm run clean:public",
+    "copy:files": "cp pages/*.{pdf,txt,png,jpg,jpeg,gif} public/",
+    "copy": "npm run copy:files",
     "lint": "./node_modules/.bin/eslint --ext .js,.jsx --ignore-pattern public .",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gatsby build --prefix-links && gh-pages -d public"
   },
   "dependencies": {
     "babel-plugin-add-module-exports": "^0.2.1",
@@ -30,6 +33,7 @@
     "underscore.string": "^3.2.3"
   },
   "devDependencies": {
+    "gh-pages": "^0.11.0",
     "autoprefixer": "^6.3.6",
     "babel-preset-react-hmre": "^1.1.1",
     "eslint": "^2.9.0",

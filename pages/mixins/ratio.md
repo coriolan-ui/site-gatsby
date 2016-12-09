@@ -1,13 +1,17 @@
 ---
-id: 06
+id: 04
 title: 'Ratio'
 layout: post
 category: mixin
 ---
 
-SCSS Source
+Source
 
-    Coming Soon
+    @mixin ratio($width, $ratio-width, $ratio-height) {
+        width: $width;
+        padding-bottom: ($ratio-height / $ratio-width) * $width;
+        position: relative;
+    }
 
 SCSS Sintaxis
 

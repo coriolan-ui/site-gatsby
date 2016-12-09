@@ -1,13 +1,18 @@
 ---
-id: 03
+id: 05
 title: 'Ellipsis'
 layout: post
 category: mixin
 ---
 
-SCSS Source
+Source
 
-    Coming Soon
+    @mixin ellipsis {
+        display: block;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+    }
 
 SCSS Sintaxis
 

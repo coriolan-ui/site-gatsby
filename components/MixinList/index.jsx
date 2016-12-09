@@ -11,7 +11,7 @@ class MixinList extends React.Component {
     render() {
         const pageLinks = []
 
-        const sortedPages = sortBy(this.props.route.pages, (page) => access(page, 'data.title'))
+        const sortedPages = sortBy(this.props.route.pages, (page) => access(page, 'data.id'))
         sortedPages.forEach((page) => {
             if (access(page, 'file.ext') === 'md' && access(page, 'data.category') === 'mixin') {
                 const id = access(page, 'data.id') || page.path

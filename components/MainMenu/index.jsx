@@ -41,13 +41,18 @@ class MainMenu extends React.Component {
                             <Ink />
                         </Link> 
 
+                        <Link to={ prefixLink('/sites/')} className='mainmenu__link' activeClassName='is-selected'>
+                            Sites
+                            <Ink />
+                        </Link> 
+
                         <div style={{float:'right'}}>
-                            <a className='mainmenu__link' href={ config.siteNpmUrl } target='_blank'>
+                            <a className='mainmenu__link' href={ config.siteNpmUrl }>
                                 <img className='mainmenu__svgicon' src={ prefixLink(iconNpm) }/>
                                 <Ink />
                             </a>
 
-                            <a className='mainmenu__link' href={ config.siteGithubUrl } target='_blank'>
+                            <a className='mainmenu__link' href={ config.siteGithubUrl }>
                                 <img className='mainmenu__svgicon' src={ prefixLink(iconGithub) }/>
                                 <Ink />
                             </a>

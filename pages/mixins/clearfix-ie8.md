@@ -5,7 +5,7 @@ layout: post
 category: mixin
 ---
 
-WTF!? IE8 is old fucking shit - Yes, but in China 38% users still use it. For this reason we old `clearfix` still need us.
+WTF!? IE8 is old fucking shit - Yes, but in China 38% users still use it. For this reason `clearfix-ie8` still need us.
 
 Source
 

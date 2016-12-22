@@ -4,10 +4,10 @@ layout: page
 path: '/projects/'
 ---
 
+* [lotoru](http://lotoru.club) | [lotoru.isitdomain.com](http://lotoru.isitdomain.com)
 * [vu5](https://myvulkan.com) | [vulkan.isitdomain.com](http://vulkan.isitdomain.com)
 * [ssl](https://casinosuperslots.tv) | [ssl.isitdomain.com](http://ssl.isitdomain.com)
-* [38](http://118long.com)
-* [lotoru](http://lotoru.club) | [lotoru.isitdomain.com](http://lotoru.isitdomain.com)
+* [38](http://118long.com) | [china.isitdomain.com](http://china.isitdomain.com)
 * [lotofun](http://lotofun.club)
 * [korona](http://casinokorona.com)
 * [gms](http://www.gmslots.com)

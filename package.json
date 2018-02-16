@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "@nuxtjs/component-cache": "^1.1.0",
+    "@nuxtjs/pwa": "latest",
+    "nuxt": "^1.0.0-rc11"
+  },
+  "devDependencies": {
+    "firebase": "^4.3.1",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.1",
+    "vuex-router-sync": "^4.3.2"
+  },
+  "scripts": {
+    "dev": "nuxt dev",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "dev-spa": "nuxt dev --spa",
+    "build-spa": "nuxt build --spa",
+    "start-spa": "nuxt start --spa"
+  },
+  "engines": {
+    "node": ">=9.5",
+    "npm": ">=5.6"
+  }
+}

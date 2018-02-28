@@ -5,26 +5,32 @@ layout: post
 category: mixin
 ---
 
-Source
+### SCSS Usage
 
-    @mixin clearfix {
-        &::after {
-            clear: both;
-            content: "";
-            display: table;
-        }
-    }
+```scss
+.container {
+    @include clearfix;
+}
+```
 
-SCSS Sintaxis
+### CSS Output
 
-    .container {
-        @include clearfix;
-    }
+```scss
+.container::after {
+    clear: both;
+    content: '';
+    display: table;
+}
+```
 
-CSS Output
+### SCSS Source
 
-    .container::after {
+```scss
+@mixin clearfix {
+    &::after {
         clear: both;
-        content: '';
+        content: "";
         display: table;
     }
+}
+```

@@ -14,7 +14,9 @@ or shortly `npm i coriolan-ui -S`
 
 Then import Coriolan UI in your sass/scss stylesheet from `node_modules` folder:
 
-    @import '../node_modules/coriolan-ui/coriolan-ui';
+```scss
+@import '../node_modules/coriolan-ui/coriolan-ui';
+```
 
 ### Via bower:
 
@@ -26,18 +28,24 @@ or shortly `bower i coriolan-ui -S`
 
 Then import Coriolan UI in your sass/scss stylesheet from `bower_components` folder:
 
-    @import '../bower_components/coriolan-ui/coriolan-ui';
+```scss
+@import '../bower_components/coriolan-ui/coriolan-ui';
+```
 
 ### Then use it:
 
 Now you can add any available mixin in your sass/scss stylesheet:
 
-    .container {
-        @include clearfix;
-    }
+```scss
+.container {
+    @include clearfix;
+}
+```
 
 Or even use any supported variable in your sass/scss stylesheet:
 
-    .container {
-        max-width: $XL;
-    }
+```scss
+.container {
+    max-width: $XL;
+}
+```

@@ -7,43 +7,48 @@ category: mixin
 
 WTF!? IE8 is old fucking shit - Yes, but in China 38% users still use it. For this reason `clearfix-ie8` still need us.
 
-Source
+### SCSS Usage
 
-    @mixin clearfix-ie8 {
-        zoom: 1;
-        &::before,
-        &::after {
-            content: ".";
-            display: block;
-            height: 0;
-            overflow: hidden;
-        }
-        &::after {
-            clear: both;
-        }
-    }
+```scss
+.container {
+    @include clearfix-ie8;
+}
+```
 
-SCSS Sintaxis
+### CSS Output
 
-    .container {
-        @include clearfix-ie8;
-    }
+```scss
+.container {
+    zoom: 1;
+}
 
-CSS Output
+.container::before,
+.container::after {
+    content: ".";
+    display: block;
+    height: 0;
+    overflow: hidden;
+}
 
-    .container {
-        zoom: 1;
-    }
+.container::after {
+    clear: both;
+}
+```
 
-    .container::before,
-    .container::after {
+### SCSS Source
+
+```scss
+@mixin clearfix-ie8 {
+    zoom: 1;
+    &::before,
+    &::after {
         content: ".";
         display: block;
         height: 0;
         overflow: hidden;
     }
-
-    .container::after {
+    &::after {
         clear: both;
     }
-    
+}
+```
